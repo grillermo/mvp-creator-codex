@@ -1,0 +1,20 @@
+{
+  "name": "maquina",
+  "interface": {
+    "displayName": "Maquina"
+  },
+  "plugins": [
+    {
+      "name": "mvp-creator-codex",
+      "source": {
+        "source": "local",
+        "path": "./plugins/mvp-creator-codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

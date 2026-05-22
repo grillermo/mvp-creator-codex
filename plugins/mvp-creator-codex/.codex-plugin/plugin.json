@@ -1,0 +1,36 @@
+{
+  "name": "mvp-creator-codex",
+  "version": "1.0.0",
+  "description": "Create comprehensive MVP documentation for Rails applications - research reports, business plans, brand guides, technical guides, and Codex setup",
+  "author": {
+    "name": "Mario Alberto Chavez",
+    "email": "mario@maquina.app"
+  },
+  "repository": "https://github.com/maquina-app/rails-claude-code",
+  "license": "MIT",
+  "keywords": [
+    "rails",
+    "mvp",
+    "documentation",
+    "planning",
+    "business",
+    "saas"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "MVP Creator Codex",
+    "shortDescription": "Generate MVP docs for new Rails app ideas.",
+    "longDescription": "Guided workflow for competitor research, business planning, brand definition, technical architecture, and Codex project setup for Rails MVPs.",
+    "developerName": "Mario Alberto Chavez",
+    "category": "Productivity",
+    "capabilities": [
+      "Write",
+      "Research"
+    ],
+    "defaultPrompt": [
+      "Help me plan an MVP for a new Rails app idea.",
+      "Research competitors and build an MVP business plan.",
+      "Create a brand and technical guide for my app concept."
+    ]
+  }
+}
